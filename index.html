@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Cuts Barbershop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">ELITE CUTS</div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="policies.html">FAQ</a>
+  </nav>
+
+  <a href="#booking" class="primary-btn">Book Now</a>
+</header>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="subheading">PREMIUM GROOMING EXPERIENCE</p>
+
+      <h1>
+        Modern Haircuts For
+        The Modern Gentleman
+      </h1>
+
+      <p class="hero-text">
+        Sharp fades, clean beard grooming, and premium service
+        designed to keep you looking confident every day.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#booking" class="primary-btn">Book Appointment</a>
+        <a href="#gallery" class="primary-btn">View Styles</a>
+      </div>
+    </div>
+  </section>
+
+<!-- TRUST / TESTIMONIALS -->
+<section class="trust-section">
+
+  <div class="trust-card rating-card">
+    <h2 id="google-rating">4.9★</h2>
+    <p>
+      Google Rating from
+      <span id="review-count">500+</span>
+      reviews
+    </p>
+  </div>
+
+  <div class="trust-card testimonial-card">
+    <p class="testimonial-text" id="review-text">
+      “Amazing service and clean fades every time.”
+    </p>
+
+    <div class="review-user">
+      <h4 id="review-author">Customer Name</h4>
+      <span>Google Review</span>
+    </div>
+  </div>
+
+  <div class="trust-card testimonial-card">
+    <p class="testimonial-text" id="review-text-2">
+      “Professional atmosphere and top-tier barbers.”
+    </p>
+
+    <div class="review-user">
+      <h4 id="review-author-2">Customer Name</h4>
+      <span>Google Review</span>
+    </div>
+  </div>
+
+</section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+
+    <div class="section-header">
+      <p class="subheading">OUR SERVICES</p>
+      <h2>Premium Grooming Services</h2>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <h3>Classic Haircut</h3>
+        <p>
+          Clean cuts tailored to match your face structure and style.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Skin Fade</h3>
+        <p>
+          Sharp modern fades finished with premium detailing.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Beard Grooming</h3>
+        <p>
+          Precision beard shaping and maintenance.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Home Service</h3>
+        <p>
+          Luxury grooming delivered directly to your location.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- BENEFITS SECTION -->
+<section class="benefits-section">
+
+  <div class="section-header center">
+    <p class="subheading">WHY CHOOSE US</p>
+    <h2>More Than a Haircut</h2>
+    <p class="section-text">
+      We deliver premium grooming experiences designed to keep you
+      confident, sharp, and looking your absolute best every day.
+    </p>
+  </div>
+
+  <div class="benefits-grid">
+
+    <!-- BENEFIT 1 -->
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <i class="fa-solid fa-scissors"></i>
+      </div>
+
+      <h3>Precision Cuts</h3>
+
+      <p>
+        Every haircut is tailored to match your face structure,
+        lifestyle, and personal style.
+      </p>
+    </div>
+
+    <!-- BENEFIT 2 -->
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <h3>Premium Experience</h3>
+
+      <p>
+        Relax in a clean, modern environment with professional
+        barbers focused on quality service.
+      </p>
+    </div>
+
+    <!-- BENEFIT 3 -->
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <i class="fa-solid fa-clock"></i>
+      </div>
+
+      <h3>Fast & Reliable</h3>
+
+      <p>
+        Book appointments easily and enjoy consistent service
+        without wasting your time.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PORTFOLIO SECTION -->
+<section class="portfolio-section">
+
+  <div class="section-header center">
+    <p class="subheading">OUR WORK</p>
+    <h2>Fresh Cuts & Clean Fades</h2>
+
+    <p class="section-text">
+      Take a look at some of our recent transformations and
+      signature styles.
+    </p>
+  </div>
+
+  <!-- SLIDESHOW -->
+  <div class="portfolio-slider">
+
+    <!-- SLIDE 1 -->
+    <div class="portfolio-slide fade">
+      <img
+        src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1200&auto=format&fit=crop"
+        alt="Fade haircut"
+      >
+
+      <div class="portfolio-overlay">
+        <h3>Skin Fade</h3>
+        <p>Sharp fade with textured top styling</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="portfolio-slide fade">
+      <img
+        src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1200&auto=format&fit=crop"
+        alt="Beard grooming"
+      >
+
+      <div class="portfolio-overlay">
+        <h3>Beard Grooming</h3>
+        <p>Clean beard shaping and finishing</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="portfolio-slide fade">
+      <img
+        src="https://images.unsplash.com/photo-1503951458645-643d53bfd90f?q=80&w=1200&auto=format&fit=crop"
+        alt="Classic haircut"
+      >
+
+      <div class="portfolio-overlay">
+        <h3>Classic Cut</h3>
+        <p>Modern style with premium finishing</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+
+    <div class="about-image"></div>
+
+    <div class="about-content">
+      <p class="subheading">ABOUT US</p>
+
+      <h2>
+        More Than A Haircut
+      </h2>
+
+      <p>
+        At Elite Cuts, we believe grooming is part of confidence.
+        Our mission is to deliver a premium experience where every
+        client leaves looking sharp and feeling powerful.
+      </p>
+
+      <a href="#booking" class="primary-btn">Book Your Session</a>
+    </div>
+  </section>
+
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery-section">
+
+  <div class="section-header center">
+    <p class="subheading">OUR WORK</p>
+    <h2>Fresh Styles & Clean Fades</h2>
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="slide fade">
+      <img src="images/style1.jpg" alt="Style 1">
+    </div>
+
+    <div class="slide fade">
+      <img src="images/style2.jpg" alt="Style 2">
+    </div>
+
+    <div class="slide fade">
+      <img src="images/style3.jpg" alt="Style 3">
+    </div>
+
+    <div class="slide fade">
+      <img src="images/style4.jpg" alt="Style 4">
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- FAQ -->
+  <section class="faq-section">
+
+    <div class="section-header center">
+      <p class="subheading">FAQ</p>
+      <h2>Common Questions</h2>
+    </div>
+
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do I need an appointment?
+        </button>
+
+        <div class="faq-answer">
+          Walk-ins are welcome, but appointments are recommended.
+        </div>
+      </div>
+
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How long does a haircut take?
+        </button>
+
+        <div class="faq-answer">
+          Most haircuts take between 20–45 minutes.
+        </div>
+      </div>
+
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you offer home service?
+        </button>
+
+        <div class="faq-answer">
+          Yes. We provide luxury home grooming services.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section id="booking" class="cta-section">
+
+    <div class="cta-content">
+      <p class="subheading">BOOK NOW</p>
+
+      <h2>
+        Ready For Your Next Fresh Look?
+      </h2>
+
+      <p>
+        Schedule your next premium grooming session today.
+      </p>
+
+      <a href="#contact" class="primary-btn">
+        Contact Us
+      </a>
+    </div>
+  </section>
+
+
+<!-- FOOTER -->
+<footer id="contact">
+
+  <div class="footer-content">
+    <h2>ELITE CUTS</h2>
+
+    <p>
+      Premium grooming experience for modern gentlemen.
+    </p>
+
+    <div class="footer-links">
+      <a href="https://instagram.com/elitecuts" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://wa.me/2348012345678" target="_blank">
+        WhatsApp
+      </a>
+
+      <a href="https://facebook.com/elitecuts" target="_blank">
+        Facebook
+      </a>
+    </div>
+  </div>
+
+  <div class="copyright">
+    © 2026 Elite Cuts Barbershop
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
